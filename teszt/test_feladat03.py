@@ -13,7 +13,7 @@ class min(TestCase):
         elvart = -6.7
         self.assertEqual(elvart, aktualis, adat+" számok legkisebb elemét nem jól határozta meg")
     def test_feladat02(self):
-        adat = "5.5"
+        adat = "5,5"
         aktualis = feladatok.min(adat)
         elvart = 5.5
         self.assertEqual(elvart, aktualis, adat+" számok legkisebb elemét nem jól határozta meg")
